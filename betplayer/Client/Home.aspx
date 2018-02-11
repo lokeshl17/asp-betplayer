@@ -1,6 +1,6 @@
 ﻿<html lang="en" class="desktop landscape gr__34zone_com">
 <head>
-    <title>HomePage</title>
+    <title>HomePage betplayer </title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
