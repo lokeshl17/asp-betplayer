@@ -118,6 +118,7 @@
     <Content Include="Client\js\Homejs\superfish.js" />
     <Content Include="Client\js\Homejs\tmstickup.js" />
     <Content Include="Client\js\Homejs\wow.js" />
+    <Content Include="Client\Login.aspx" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\34admin - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\34admin - Web Deploy.pubxml" />
@@ -150,6 +151,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
