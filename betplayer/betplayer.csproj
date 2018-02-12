@@ -119,6 +119,7 @@
     <Content Include="Client\js\Homejs\tmstickup.js" />
     <Content Include="Client\js\Homejs\wow.js" />
     <Content Include="Client\Login.aspx" />
+    <Content Include="Client\Terms_Condition.aspx" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\34admin - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\34admin - Web Deploy.pubxml" />
@@ -157,6 +158,13 @@
     </Compile>
     <Compile Include="Client\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Terms_Condition.aspx.cs">
+      <DependentUpon>Terms_Condition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Terms_Condition.aspx.designer.cs">
+      <DependentUpon>Terms_Condition.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
